@@ -1,0 +1,83 @@
+
+.App {
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-header {
+  background-color: white;
+  width: 500px;
+  padding-right:3%;
+  padding-left: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  border-radius: 15px
+}
+
+#buttonBar {
+  display:flex;
+  width: 100%;
+  height: 50px;
+  padding-top: 10px;
+  bottom: 0;
+}
+
+#socials{
+  font-size: 2rem;
+  width: 25%;
+  text-decoration:none;
+  color: rgb(35, 22, 22);
+}
+
+#newQuoteDiv{
+   padding-top: 5px;
+   width: 75%;
+   text-align:right;
+}
+  
+#quote-icon{
+  padding-right:10px;
+}
+
+#new-quote{
+border: none;
+font-size: 1rem;
+color: white;
+border-radius: 20%;
+height:2rem;
+box-shadow: 3px 3px 5px 2px rgba(0,0,0,.3);
+float: right;
+}
+
+#twitter {
+  margin-top:5px;
+  width: 3rem;
+  float: left;
+  border-radius: 20%;
+}
+
+#tumbler {
+  margin-top:5px;
+  width: 3rem;
+  float: right;
+  border-radius: 20%;
+}
+
+#tweet-quote{
+color:white
+}
+
+#tumblr-quote{
+  color:white
+}
+
+#author {
+    width:100%;
+    text-align:right;
+}
